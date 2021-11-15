@@ -14,8 +14,6 @@ on:
   workflow_dispatch:
   schedule:
      - cron: 0 8 * * 5
-  # watch:
-  #   types: started
 
 env:
   REPO_URL: https://git.openwrt.org/openwrt/openwrt.git
